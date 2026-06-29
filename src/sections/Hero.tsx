@@ -123,7 +123,10 @@ export default function Hero() {
               Get in Touch
             </button>
             <a
-              href="mailto:ponnoliprakash@gmail.com"
+              href={`${import.meta.env.BASE_URL}S_Ponnoli_EResume.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
               className="px-8 py-3.5 text-sm font-medium transition-all duration-300 hover:bg-charcoal/5"
               style={{
                 color: '#2D2D2D',
